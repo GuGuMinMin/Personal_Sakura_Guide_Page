@@ -1277,7 +1277,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				/*background: #ffffff;*/
 			}
 
 		#header > :first-child {
@@ -1341,7 +1341,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+            /*border: solid 1px #ffffff;*/
 			border-radius: 4px;
 		}
 
@@ -1382,7 +1382,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+            /*background: #ffffff;*/
 		}
 
 		#header nav.use-middle ul li.is-middle {
