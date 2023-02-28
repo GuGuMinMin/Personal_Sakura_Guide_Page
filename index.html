@@ -107,6 +107,9 @@
         return response && response.status === 200 ? response.json() : {"ip": "未知"};
     }).then(json => {
         $ip.text(json.ip)
+    }).catch(error => {
+        console.error(error)
+        $ip.text("未知")
     })
 </script>
 <!-- sakura shader -->
