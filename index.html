@@ -1,24 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
-<!--
-基于 Personal_Sakura_Guide_Page 的二次修改，Link：https://github.com/NianBroken/Personal_Sakura_Guide_Page
-修改内容：
-替换图标资源
-替换页面头像
-修改页面描述
-去除不需要的li标签
-去除不需要CSS效果
-去除底部不需要的图标
-去除底部不需要的文本
-添加自己的链接到底部图标
-添加自己的链接到li标签中
-添加a标签的下划线效果
-修改IP获取的实现
-调整中间部分标签的布局
--->
+<html>
 <head>
-    <title>站点引导页</title>
-    <meta name="description" content="那些暗潮汹涌的 见不得人的 无法诉之于口的才是我真正的生活|关键词：MinMin"/>
+    <title>碎念个人引导页</title>
+    <meta name="description"
+          content="那些暗潮汹涌的 见不得人的 无法诉之于口的才是我真正的生活|关键词：Suinian,Nianbroken"/>
     <meta charset="utf-8"/>
     <meta http-equiv="content-language" content="zh-cn"/>
     <link rel="shortcut icon" href="images/favicon.ico"/>
@@ -34,52 +19,50 @@
     <!-- Header -->
     <header id="header">
         <div class="icon">
-            <img src="images/icon-fa-gem.png" alt="站点引导页" title="MinMin" class="logo"/>
+            <img src="images/icon-fa-gem.png" alt="碎念个人引导页" title="碎念个人引导页" class="logo"/>
         </div>
-        <h1>站点引导页</h1>
         <div class="content">
             <div class="inner">
+                <h1>碎念个人引导页</h1>
                 <p>她只是途经我留下了星火&nbsp;而我却任凭它焚烧了我整个荒原</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a target="_blank" href="https://blog.gugumin.top">Blog</a></li>
-                <li><a target="_blank" href="https://www.gugumin.top/gugu-novelai-tag">GuGu_NovelAI_Tag</a></li>
+                <li><a target="_blank" href="http://blog.nianbroken.top/">碎念博客</a></li>
+                <li><a target="_blank" href="http://rane.nianbroken.top/">燃鹅助手</a></li>
+                <li><a target="_blank" href="http://baidu.nianbroken.top/">帮你百度</a></li>
+                <li><a target="_blank" href="http://pan.nianbroken.top/">碎念云盘</a></li>
+                <li><a target="_blank" href="https://fireworks.nianbroken.top/">烟花模拟</a></li>
                 <!--<li><a href="#elements">Elements</a></li>-->
             </ul>
         </nav>
     </header>
     <!-- Footer -->
     <footer id="footer">
-        <p class="copyright">您的IP：<span id="ip-span">查询中...</span></p>
+        <p class="copyright">您的IP：
+            <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+            <script type="text/javascript">document.write(returnCitySN["cip"])</script>
+        </p>
         <p class="copyright">
             <script>
                 var mydate = new Date();
-                document.writeln("Powered  by Dimension • Crafted with  by NianBroken&nbsp;&copy;&nbsp;2021 - " + mydate.getFullYear() + '&nbsp;MinMin<br />All&nbsp;Rights&nbsp;Reserved');</script>
+                document.writeln("Copyright&nbsp;&copy;&nbsp;2021 - " + mydate.getFullYear() + '&nbsp;碎念_Nian<br />All&nbsp;Rights&nbsp;Reserved');</script>
         </p>
-        <!--<p class="copyright">你在阳光下盛放 而我在阴郁的天空下自得其乐</p>-->
-        <p class="copyright">
-            <a target="_blank" href="https://github.com/MinMinMiMi">
-                <img src="images\svg\github.svg" width="30" alt="Github" title="Github"/>&nbsp;&nbsp;
-            </a>
-            <a target="_blank" href="mailto:khadijajwflghb@gmail.com">
-                <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail"/>&nbsp;&nbsp;
-            </a>
-            <!--<a target="_blank"
-               href="http://wpa.qq.com/msgrd?v=3&amp;uin=2971802058&amp;site=qq&amp;menu=yes">
-                <img src="images\svg\qq.svg" width="30" alt="QQ" title="QQ"/>&nbsp;&nbsp;
-            </a>-->
-            <!--<a target="_blank" href="/money_receiving_QR_code">
-                <img src="images\svg\money_receiving_QR_code.svg" width="30" alt="给我打钱" title="给我打钱"/>&nbsp;&nbsp;
-            </a>-->
-            <!--<a target="_blank" href="https://gitee.com/nianbroken">
-                <img src="images\svg\gitee.svg" width="30" alt="Gitee" title="Gitee"/>&nbsp;&nbsp;
-            </a>-->
-            <!--<a target="_blank" href="http://www.coolapk.com/u/1315644">
-                <img src="images\svg\coolapk.svg" width="30" alt="Coolapk" title="Coolapk"/>
-            </a>-->
-        </p>
+        <p class="copyright">你在阳光下盛放 而我在阴郁的天空下自得其乐</p>
+        <p class="copyright"><a target="_blank"
+                                href="http://wpa.qq.com/msgrd?v=3&amp;uin=2971802058&amp;site=qq&amp;menu=yes"> <img
+                src="images\svg\qq.svg" width="30" alt="QQ" title="QQ"/>&nbsp;&nbsp;</a> <a target="_blank"
+                                                                                            href="mailto:suinian666@gmail.com">
+            <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail"/>&nbsp;&nbsp;</a> <a target="_blank"
+                                                                                                   href="/money_receiving_QR_code">
+            <img src="images\svg\money_receiving_QR_code.svg" width="30" alt="给我打钱"
+                 title="给我打钱"/>&nbsp;&nbsp;</a> <a target="_blank" href="https://github.com/nianbroken"> <img
+                src="images\svg\github.svg" width="30" alt="Github" title="Github"/>&nbsp;&nbsp;</a> <a target="_blank"
+                                                                                                        href="https://gitee.com/nianbroken">
+            <img src="images\svg\gitee.svg" width="30" alt="Gitee" title="Gitee"/>&nbsp;&nbsp;</a> <a target="_blank"
+                                                                                                      href="http://www.coolapk.com/u/1315644">
+            <img src="images\svg\coolapk.svg" width="30" alt="Coolapk" title="Coolapk"/></a></p>
     </footer>
 </div>
 <canvas id="sakura" style="z-index: 2;
@@ -101,17 +84,6 @@
     padding: 0;
     margin: 0;
 }</style>
-<script>
-    let $ip = $("#ip-span");
-    fetch('https://api.ipify.org?format=json').then(response => {
-        return response && response.status === 200 ? response.json() : {"ip": "未知"};
-    }).then(json => {
-        $ip.text(json.ip)
-    }).catch(error => {
-        console.error(error)
-        $ip.text("未知")
-    })
-</script>
 <!-- sakura shader -->
 <script id="sakura_point_vsh" type="x-shader/x_vertex">
 uniform mat4 uProjection;
@@ -205,15 +177,6 @@ void main(void) {
     distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
 }
 
-
-
-
-
-
-
-
-
-
 </script>
 <script id="sakura_point_fsh" type="x-shader/x_fragment">
 #ifdef GL_ES
@@ -287,15 +250,6 @@ void main(void) {
     gl_FragColor = vec4(col * 0.5, alpha);
 }
 
-
-
-
-
-
-
-
-
-
 </script>
 <!-- effects -->
 <script id="fx_common_vsh" type="x-shader/x_vertex">
@@ -310,15 +264,6 @@ void main(void) {
     texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
     screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
 }
-
-
-
-
-
-
-
-
-
 
 </script>
 <script id="bg_fsh" type="x-shader/x_fragment">
@@ -341,15 +286,6 @@ void main(void) {
     gl_FragColor = vec4(col * 0.5, 1.0);
 }
 
-
-
-
-
-
-
-
-
-
 </script>
 <script id="fx_brightbuf_fsh" type="x-shader/x_fragment">
 #ifdef GL_ES
@@ -366,15 +302,6 @@ void main(void) {
     vec4 col = texture2D(uSrc, texCoord);
     gl_FragColor = vec4(col.rgb * 2.0 - vec3(0.5), 1.0);
 }
-
-
-
-
-
-
-
-
-
 
 </script>
 <script id="fx_dirblur_r4_fsh" type="x-shader/x_fragment">
@@ -398,15 +325,6 @@ void main(void) {
     gl_FragColor = col / 5.0;
 }
 
-
-
-
-
-
-
-
-
-
 </script>
 <!-- effect fragment shader template -->
 <script id="fx_common_fsh" type="x-shader/x_fragment">
@@ -424,15 +342,6 @@ void main(void) {
     gl_FragColor = texture2D(uSrc, texCoord);
 }
 
-
-
-
-
-
-
-
-
-
 </script>
 <!-- post processing -->
 <script id="pp_final_vsh" type="x-shader/x_vertex">
@@ -445,15 +354,6 @@ void main(void) {
     texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
     screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
 }
-
-
-
-
-
-
-
-
-
 
 </script>
 <script id="pp_final_fsh" type="x-shader/x_fragment">
@@ -477,15 +377,6 @@ void main(void) {
     gl_FragColor = vec4(col.rgb, 1.0);
     gl_FragColor.a = 1.0;
 }
-
-
-
-
-
-
-
-
-
 
 </script>
 <script>
